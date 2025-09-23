@@ -1,0 +1,28 @@
+# Dependencias
+node_modules
+
+# Build output
+dist
+build
+out
+
+# Archivos de configuración de dependencias
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Configuración de TypeScript
+tsconfig.json
+tsconfig.*.json
+
+# Configuración de ESLint
+eslint.config.js
+
+# Archivos varios
+coverage
+*.log
