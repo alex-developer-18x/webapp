@@ -28,7 +28,7 @@ export default [
     },
     rules: {
       'react/react-in-jsx-scope': 'off', // No se necesita en React 17+
-      'prettier/prettier': 'error',
+      'prettier/prettier': ['error', { endOfLine: 'lf' }],
     },
     settings: {
       react: {
